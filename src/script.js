@@ -22,3 +22,27 @@ ReactDOM.render(
 
   document.getElementById("root")
 );
+
+
+
+
+// Inline Styling For React Element
+
+
+import React from "react";
+import ReactDOM from "react-dom";
+
+const customStyle = {
+  color: "red",
+  fontSize: "20px",
+  border: "1px solid black"
+};
+
+ReactDOM.render(
+  <div>
+    <h1 style={customStyle}> Im the King in the North 🦄</h1>
+  </div>,
+
+  document.getElementById("root")
+);
+
