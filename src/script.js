@@ -29,6 +29,22 @@ ReactDOM.render(
 // Inline Styling For React Element
 
 
+// without declaring variable
+
+import React from "react";
+import ReactDOM from "react-dom";
+ReactDOM.render(
+  <div>
+    <h1 style={{ color: "red" }}> Im the King in the North 🦄</h1>
+  </div>,
+
+  document.getElementById("root")
+);
+
+
+
+// with declaring varible
+
 import React from "react";
 import ReactDOM from "react-dom";
 
