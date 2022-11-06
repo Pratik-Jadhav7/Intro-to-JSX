@@ -62,3 +62,20 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
+
+
+
+
+
+// Create a React app from scratch
+// show single h1 that says "Good Morning" if between midnight adn 12AM 
+// or "Good afternoon" if between 12PM to 6PM
+// or "Good Evening" if between 6PM to MidNigth
+// Apply The "heading" style in style.css
+// Dynamically change the color of the h1 using inline css styles
+// MORNING = red, Afternoon = green, evening = blue.  
+
+
+
+
+
