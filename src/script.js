@@ -99,6 +99,9 @@ if(currentTime < 12){
   greeting = "Good Evening"
   customStyle.color = "blue";
 }
+
+
+
 ReactDOM.render(
   <div>
     <h1 className= "heading " style={customStyle}>{greeting}</h1>
@@ -106,4 +109,3 @@ ReactDOM.render(
 
   document.getElementById("root")
 );
-
